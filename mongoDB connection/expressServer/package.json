@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "basic program to learn how to deploy ",
+  "keywords": [
+    "node",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "Yash Sharma",
+  "type":"commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js "
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
