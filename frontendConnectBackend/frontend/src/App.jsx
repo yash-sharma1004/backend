@@ -10,10 +10,8 @@ function App() {
   const [jokes, setJokes] = useState([])
 
   useEffect(()=>{
-    let jokes  = axios.get(`https://github.com/15Dkatz/official_joke_api`)
+    let jokes  = axios.get(`http://localhost:3000/api/jokes`)
     .then((response)=>{
-      console.log(response.data);
-      
         setJokes(response.data)
     })
     .catch(()=>{
